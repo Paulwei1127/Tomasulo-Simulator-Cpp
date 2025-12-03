@@ -1,6 +1,6 @@
 # Tomasulo Algorithm Simulator (C++)
 
-## 📝 專案簡介 (Introduction)
+## 專案簡介 (Introduction)
 
 This project is a C++ simulator for the **Tomasulo Algorithm**. It
 demonstrates how **Dynamic Scheduling** and **Out-of-Order Execution**
@@ -17,7 +17,7 @@ each cycle.\
 
 ------------------------------------------------------------------------
 
-## 🚀 功能與特色 (Features)
+## 功能與特色 (Features)
 
 -   **Out-of-Order Execution:** Instructions are executed out-of-order
     to minimize stalls.
@@ -35,7 +35,7 @@ each cycle.\
 
 ------------------------------------------------------------------------
 
-## 🛠 系統架構 (System Architecture)
+## 系統架構 (System Architecture)
 
 The simulation follows these three stages (模擬器主要包含三個階段):
 
@@ -57,7 +57,7 @@ The simulation follows these three stages (模擬器主要包含三個階段):
 
 ------------------------------------------------------------------------
 
-## 📂 檔案結構 (File Structure)
+## 檔案結構 (File Structure)
 
 -   `TomasuloSimu.cpp`: Main source code. (核心程式碼)
 -   `input.txt`: Assembly input file. (輸入的組語測試檔)
@@ -67,7 +67,7 @@ The simulation follows these three stages (模擬器主要包含三個階段):
 
 ------------------------------------------------------------------------
 
-## 💻 如何執行 (How to Run)
+## 如何執行 (How to Run)
 
 ### 1. Compile (編譯)
 
@@ -93,7 +93,7 @@ Ensure `input.txt` is in the same directory. Format:\
 
 ------------------------------------------------------------------------
 
-## 📊 輸出範例 (Output Example)
+## 輸出範例 (Output Example)
 
 The simulator will print the state of every component:\
 模擬器會印出每個 Cycle 的各元件狀態：
