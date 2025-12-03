@@ -40,18 +40,18 @@ each cycle.\
 The simulation follows these three stages (模擬器主要包含三個階段):
 
 1.  **Issue (發指令):**
-    -   Fetch instruction and allocate a Reservation Station (RS).\
-    -   Update **RAT** to handle data dependency (Register Renaming).\
+    -   Fetch instruction and allocate a Reservation Station (RS).
+    -   Update **RAT** to handle data dependency (Register Renaming).
     -   取得指令並分配 RS，同時更新 RAT 表格以處理資料相依性 (解決 WAW
         hazard)。
 2.  **Dispatch / Execute (執行):**
     -   Monitor operands. When all operands are ready (resolved by CDB),
-        execution starts.\
+        execution starts.
     -   監控運算元 (Operands)。當所有資料準備就緒 (透過 CDB
         廣播取得)，即開始執行運算。
 3.  **Write Back (寫回):**
-    -   Broadcast result on **Common Data Bus (CDB)**.\
-    -   Update waiting RS and Register File.\
+    -   Broadcast result on **Common Data Bus (CDB)**.
+    -   Update waiting RS and Register File.
     -   運算完成後，將結果廣播到 CDB，更新正在等待這個結果的 RS
         以及暫存器數值。
 
